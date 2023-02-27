@@ -26,6 +26,7 @@ In this section, we will take a look at **`Manually Scheduling`** a **`POD`** on
     
 ## No Scheduler
   - You can manually assign pods to node itself. Well without a scheduler, to schedule pod is to set **`nodeName`** property in your pod definition file while creating a pod.
+  - But it will not allow you to run 'kubectl apply', you can use 'kubectl create' instead.
     
     ![sc2](../../images/sc2.PNG)
     
